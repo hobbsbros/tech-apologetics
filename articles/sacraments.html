@@ -1,0 +1,405 @@
+<html>
+<head><style>
+@media screen and (min-device-width: 480px) {
+    body {
+        font-family: 'Bitter', serif;
+        background-color: #f5eeda;
+    }
+    
+    h1 {
+        color: black;
+        font-size: 60px;
+        display: block;
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+    }
+    
+    h2 {
+        color: #0b5394;
+        font-size: 48px;
+        font-family: 'Lexend', sans-serif;
+        margin: 10px 20% 10px 20%;
+    }
+    
+    h3 {
+        color: black;
+        font-size: 28px;
+        font-family: 'Lexend', sans-serif;
+        margin: 25px 20% 10px 20%;
+    }
+    
+    h4 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 16px;
+        color: #404040;
+        margin: 4px 20% 4px 20%;
+    }
+    
+    h5 {
+        color: black;
+        font-size: 36px;
+        font-style: italic;
+        font-weight: light;
+        font-family: 'Lexend', sans-serif;
+        margin: 4px 20% 4px 20%;
+    }
+    
+    h6 {
+        text-transform: uppercase;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 6px;
+        font-weight: bold;
+        margin: 20px 0px 20px 0px;
+    }
+    
+    p {
+        margin: 10px 20% 10px 20%;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 28px;
+    }
+
+    p.block {
+        margin: 10px 20% 10px 20%;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 28px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #c45050;
+    }
+    
+    div.tiles {
+        display: flex;
+        flex-wrap: wrap;
+        width: 60%;
+        margin: auto;
+    }
+    
+    div.menu {
+        top: 0px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin: 6px 20% 6px 20%;
+        height: auto;
+        text-transform: uppercase;
+        position: sticky;
+        background-color: #f5eeda;
+    }
+
+    div.menu a {
+        color: black;
+        font-family: 'Lexend', sans-serif;
+        font-size: 22px;
+        transition: 0.4s;
+    }
+
+    div.menu a:hover {
+        color: #c45050;
+        transition: 0.4s;
+    }
+    
+    a.tile {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        min-height: 240px;
+        width: 45%;
+        background-color: #c0c0c0;
+        color: #c45050;
+        text-shadow: 0px 0px 10px white, 0px 0px 10px white;
+        transition: 0.4s;
+        border: none;
+        border-radius: 25px;
+        font-size: 48px;
+        margin: 10px;
+    }
+    
+    a.tile:hover {
+        min-height: 240px;
+        width: 45%;
+        background-color: #404040;
+        text-shadow: 0px 0px 10px black;
+        color: white;
+        transition: 0.4s;
+    }
+    
+    h6.footer {
+        color: #0b5394;
+    }   
+}
+
+@media print {
+    body {
+        font-family: 'Bitter', serif;
+        background-color: white;
+    }
+    
+    h1 {
+        color: black;
+        font-size: 60px;
+        display: block;
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+    }
+    
+    h2 {
+        color: #0b5394;
+        font-size: 48px;
+        font-family: 'Lexend', sans-serif;
+        margin: 10px 0 10px 0;
+    }
+    
+    h3 {
+        color: black;
+        font-size: 28px;
+        font-family: 'Lexend', sans-serif;
+        margin: 25px 0 10px 0;
+    }
+    
+    h4 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 16px;
+        color: #404040;
+        margin: 4px 0 4px 0;
+    }
+    
+    h5 {
+        color: black;
+        font-size: 36px;
+        font-style: italic;
+        font-weight: light;
+        font-family: 'Lexend', sans-serif;
+        margin: 4px 0 4px 0;
+    }
+    
+    h6 {
+        text-transform: uppercase;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 6px;
+        font-weight: bold;
+        margin: 20px 0px 20px 0px;
+    }
+    
+    p {
+        margin: 10px 0 10px 0;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 28px;
+    }
+
+    p.block {
+        margin: 10px 0 10px 0;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 28px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #c45050;
+    }
+    
+    div.tiles {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    
+    div.menu {
+        display: none;
+    }
+    
+    a.tile {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        min-height: 240px;
+        width: 45%;
+        background-color: #c0c0c0;
+        color: #c45050;
+        transition: 0.8s;
+        border-radius: 25px;
+        border: 1px solid black;
+        font-size: 48px;
+        margin: 10px;
+    }
+    
+    a.tile:hover {
+        min-height: 240px;
+        width: 45%;
+        background-color: #404040;
+        color: white;
+        transition: 0.8s;
+    }
+    
+    h6.footer {
+        color: #0b5394;
+    }   
+}
+
+@media screen and (max-device-width: 480px) {
+    body {
+        font-family: 'Bitter', serif;
+        background-color: #f5eeda;
+    }
+    
+    h1 {
+        color: black;
+        font-size: 60px;
+        display: block;
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+    }
+    
+    h2 {
+        color: #0b5394;
+        font-size: 48px;
+        font-family: 'Lexend', sans-serif;
+        margin: 10px 0 10px 0;
+    }
+    
+    h3 {
+        color: black;
+        font-size: 28px;
+        font-family: 'Lexend', sans-serif;
+        margin: 25px 0 10px 0;
+    }
+    
+    h4 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 16px;
+        color: #404040;
+        margin: 4px 0 4px 0;
+    }
+    
+    h5 {
+        color: black;
+        font-size: 36px;
+        font-style: italic;
+        font-weight: light;
+        font-family: 'Lexend', sans-serif;
+        margin: 4px 0 4px 0;
+    }
+    
+    h6 {
+        text-transform: uppercase;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 6px;
+        font-weight: bold;
+        margin: 20px 0px 20px 0px;
+    }
+    
+    p {
+        margin: 10px 0 10px 0;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 28px;
+    }
+
+    p.block {
+        margin: 10px 0 10px 0;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 28px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #c45050;
+    }
+    
+    div.tiles {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+    
+    div.menu {
+        top: 0px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        margin: 6px 20% 6px 20%;;
+        text-align: center;
+        height: auto;
+        position: sticky;
+        background-color: #f5eeda;
+    }
+
+    div.menu a {
+        color: black;
+        font-family: 'Lexend', sans-serif;
+        font-size: 22px;
+    }
+    
+    a.tile {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        min-height: 240px;
+        width: 45%;
+        background-color: #c0c0c0;
+        color: #c45050;
+        transition: 0.8s;
+        border-radius: 25px;
+        border: 1px solid black;
+        font-size: 48px;
+        margin: 10px;
+    }
+    
+    a.tile:hover {
+        min-height: 240px;
+        width: 45%;
+        background-color: #404040;
+        color: white;
+        transition: 0.8s;
+    }
+    
+    h6.footer {
+        color: #0b5394;
+    }   
+}</style>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Lexend:wght@900&display=swap" rel="stylesheet"><title>The Sacraments | Tech Apologetics</title></head>
+
+<body>
+
+
+
+<h2>The Sacraments</h2>
+
+<h5>Tech Apologetics</h5>
+
+
+<div class="menu">
+    <a href="../index.html">Menu</a>
+</div>
+
+<h3>Claim: Baptism is not necessary for salvation</h3>
+
+<p>False.  Jesus Himself taught that baptism is necessary for salvation. <p class="block">Jesus answered, "Amen, amen, I say to you, no one can enter the kingdom of God without being born of water and Spirit."</p><p>~ <em>John 3:5</em></p>
+<p>Furthermore, the early Church believed strongly in the necessity of baptism. <p class="block">Without baptism, salvation is attainable by none.</p><p>~ <em>Tertullian, <em>Baptism</em> , A.D. 203</em></p> <p class="block">There are three ways in which sins are forgiven: in baptism, in prayer, and in the greater humility of penance; yet God does not forgive sins except to the baptized.</p><p>~ <em>St. Augustine, <em>Sermons to Catechumens on the Creed</em> 7:15, A.D. 395</em></p>
+
+</body>
+</html>

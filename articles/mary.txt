@@ -1,0 +1,19 @@
+\pagename{The Virgin Mary}
+
+# The Virgin Mary
+
+\subtitle{Tech Apologetics}
+
+\menu
+
+## Claim: The Catholic Church worships Mary as a goddess
+
+~ False.  Catholics worship God only but give great honor to Mary as the Mother of God.
+
+## Claim: The Catholic Church invented the doctrine of the Assumption of the Virgin Mary in 1950
+
+~ False.  Written evidence of belief in the Assumption of the Virgin Mary has existed since at least A.D. 1095.  Furthermore, it is widely believed among contemporary Catholic scholars that the earliest fathers of the Church believed in the Assumption.
+
+\block{
+    [L]et them know that he (Adhemar) will set out with the aid of God on the day of the Assumption of the Blessed Mary...
+}{Urban II, \it{Letter of Instruction to the Crusaders}, A.D. 1095}

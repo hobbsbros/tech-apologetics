@@ -1,0 +1,25 @@
+\pagename{The Sacraments}
+
+# The Sacraments
+
+\subtitle{Tech Apologetics}
+
+\menu
+
+## Claim: Baptism is not necessary for salvation
+
+~ False.  Jesus Himself taught that baptism is necessary for salvation.
+
+\block{
+    Jesus answered, "Amen, amen, I say to you, no one can enter the kingdom of God without being born of water and Spirit."
+}{John 3:5}
+
+~ Furthermore, the early Church believed strongly in the necessity of baptism.
+
+\block{
+    Without baptism, salvation is attainable by none.
+}{Tertullian, \it{Baptism}, A.D. 203}
+
+\block{
+    There are three ways in which sins are forgiven: in baptism, in prayer, and in the greater humility of penance; yet God does not forgive sins except to the baptized.
+}{St. Augustine, \it{Sermons to Catechumens on the Creed} 7:15, A.D. 395}

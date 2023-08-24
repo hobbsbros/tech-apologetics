@@ -1,0 +1,13 @@
+\pagename{Home}
+
+# Tech Apologetics
+
+\tiles {
+    \tile {The Bible}{no-image}{articles/bible.html}
+    \tile {The Eucharist}{no-image}{articles/eucharist.html}
+    \tile {Pre-Existence of Souls}{no-image}{articles/souls.html}
+    \tile {The Sacraments}{no-image}{articles/sacraments.html}
+    \tile {Seventh-Day Worship}{no-image}{articles/seventh-day-worship.html}
+    \tile {The Trinity}{no-image}{articles/non-trinitarian.html}
+    \tile {The Virgin Mary}{no-image}{articles/mary.html}
+}
